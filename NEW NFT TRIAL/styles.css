@@ -1,0 +1,161 @@
+* {
+    margin: 0 ;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.logo {
+    width: 350px;
+    height: 60px;
+    padding: 0 4%;
+    mix-blend-mode: difference;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    margin-left: 42px;
+    margin-top: 45px;
+    font-family: 'Pixelify Sans', sans-serif;
+
+
+
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
+
+
+
+}
+
+
+.search-container {
+
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+#search-button {
+    margin-left: 4px;
+    border-radius: 55px;
+    padding: 3px 20px 8px;
+    font-size: 23px;
+    box-shadow: black;
+    border-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+    border-left-color: black;
+    cursor: pointer;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.8);
+
+
+}
+
+#search-input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 55px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+body {
+    background: #fe8c00;
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);
+    background: linear-gradient(to right, #f83600, #fe8c00);
+
+}
+
+
+#wallet {
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 12px;
+    margin-right: 70px;
+    font-size: large;
+    padding: 15px 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.8);
+
+
+
+}
+
+
+.boy {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-left: 60px;
+    box-shadow: 5px 9px 10px rgb(255, 255, 3); 
+    cursor: pointer;
+     
+
+}
+
+
+.pixelpunks {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-left: 60px;
+    box-shadow: 5px 9px 10px rgb(255, 255, 3);
+    position: relative;
+    left: 360px;
+    bottom: 376px;
+    cursor: pointer;
+    
+    
+
+}
+
+.overlay-text {
+    position: absolute;
+    top: 560px; 
+    left: 185px;
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 19px;
+    z-index: 4; 
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+.overlay-text2{
+    position: absolute;
+    top: 560px; 
+    left: 550px;
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 19px;
+    z-index: 4; 
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+        
+}
